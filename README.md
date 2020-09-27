@@ -16,8 +16,11 @@ git clone https://github.com/saifpirjade/react-login-registration.git myproject
 # Change directory
 cd myproject
 
-# Install NPM dependencies
-npm install
+# Install NPM dependencies for both
+npm run deps:install
+
+# Run individually Install NPM dependencies
+npm install and cd client npm install
 
 # Then simply serve your backend and Frontend concurrently at backend: localhost:9001, frontend: localhost:9001 (or auto port)
 npm run dev
