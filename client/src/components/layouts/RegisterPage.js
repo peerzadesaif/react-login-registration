@@ -6,6 +6,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useLocation } from 'react-router-dom';
 import history from "../../store/history";
 import * as userActions from '../../store/actions/userActions';
+import * as alertActions from '../../store/actions/alertActions';
+
 import LeftComponent from '../common/LeftComponent';
 
 import { Grid, Row, Column } from 'carbon-components-react';
