@@ -26,7 +26,7 @@ export const Fluid = (TextInputProps) => (
 
 );
 
-const LoginPage = props => {
+const ForgotPasswordPage = props => {
 
     const [inputs, setInputs] = useState({
         email: '',
@@ -117,7 +117,7 @@ const LoginPage = props => {
 
     return (
         <React.Fragment>
-            {/* LoginPage */}
+            {/* ForgotPasswordPage */}
             <div style={{ height: '100vh' }}>
                 <Grid style={{ height: '100vh', paddingLeft: 0 }}>
                     <Row style={{ height: '100vh' }}>
@@ -200,8 +200,8 @@ const LoginPage = props => {
     )
 }
 
-LoginPage.propTypes = {
+ForgotPasswordPage.propTypes = {
 
 }
 
-export default LoginPage
+export default ForgotPasswordPage
